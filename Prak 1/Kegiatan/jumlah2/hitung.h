@@ -1,3 +1,7 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
 class Hitung {
 
 friend ostream& operator<<(ostream&, const Hitung&);
