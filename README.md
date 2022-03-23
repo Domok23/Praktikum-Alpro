@@ -1,4 +1,4 @@
-# Praktikum-Alpro 
+# Praktikum-Algoritma-Pemrograman
 ## Slot Rabu, 13:30-16:30
 
 #### Wahyu Oktavian : 1800018-059
