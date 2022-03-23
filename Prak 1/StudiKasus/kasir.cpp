@@ -56,5 +56,4 @@ int main() {
 	cout<<"Bayar        : Rp.";
 	cin>>bayar; // Input dari user untuk jumlah yang dibayar
 	cout<<"Kembali      : Rp."<<(bayar-(tot-diskon))<<endl; // Menampilkan uang kembali
-	
 }
