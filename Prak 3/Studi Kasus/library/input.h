@@ -3,22 +3,23 @@ using namespace std;
 class Input {
 	public :
 		void cetak (){
-			cout << " ----------RM Seafood 99--------------" <<endl;
+			cout << " ===========RM Seafood 99=============" <<endl;
 			cout << "" <<endl;
-			cout << " =======Menu==============Harga======="<<endl;
+			cout << " ----Menu-------------Harga-----------"<<endl;
 			cout << " 1). Ayam Geprek      Rp. 21000"<<endl;
 			cout << " 2). Ayam Goreng      Rp. 17000"<<endl;
 			cout << " 3). Udang Goreng     Rp. 19000"<<endl;
 			cout << " 4). Cumi Goreng      Rp. 20000"<<endl;
 			cout << " 5). Ayam Bakar       Rp. 25000"<<endl;
-            cout << " -------------------------------------" <<endl;
-            cout << "" <<endl;
+      		cout << " -------------------------------------" <<endl;
+      		cout << "" <<endl;
 			cout << " Pesan Ayam Geprek     : "; cin >> bnyk_aymGP;
 			cout << " Pesan Ayam Goreng     : "; cin >> bnyk_aymGR;
 			cout << " Pesan Udang Goreng    : "; cin >> bnyk_udgGR;
 			cout << " Pesan Cumi Goreng     : "; cin >> bnyk_cmiGR;
 			cout << " Pesan Ayam Bakar      : "; cin >> bnyk_aymBK;
-			cout << " Masukkan jarak rumah kamu (dalam KM)   : "; cin >>jarak;
+			cout << " Jarak Pengiriman (dalam KM) : "; cin >>jarak;
+      cout << " -------------------------------------" <<endl;
 		}
 		void tofile(){
 			tulis_data.open("api_data.txt");
