@@ -19,4 +19,4 @@ int main() {
     cout<<" ";
     cout<<x<<" Pangkat "<<y<<" = "<<pangkat;
     return 0;
-} 
+}

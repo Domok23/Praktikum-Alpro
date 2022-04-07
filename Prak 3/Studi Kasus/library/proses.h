@@ -2,10 +2,6 @@ using namespace std;
 
 class Proses{
 	public:
-		void cetak(){
-			cout << "Anda sebagai Proses \n";
-		}
-
 		void getData(){
 			ambil_data.open("api_data.txt");
 			bool ayam_geprek = true;
@@ -40,6 +36,7 @@ class Proses{
 			}
 			ambil_data.close();
 		}
+
 		void toFile(){
 			int total = (hrg_aymGP * bnyk_aymGP) + (hrg_aymGR * bnyk_aymGR) + (hrg_udgGR * bnyk_udgGR) + (hrg_cmiGR * bnyk_cmiGR) + (hrg_aymBK * bnyk_aymBK);
 			float jumlah = float(total);
@@ -81,7 +78,6 @@ class Proses{
 			tulis_data << bayar;
 			tulis_data.close();
 		}
-
 
 	private :
 		ifstream ambil_data;
