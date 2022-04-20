@@ -1,4 +1,6 @@
 #include <iostream>
+#include <stdio.h>
+#include <conio.h>
 using namespace std;
 
 class perulangan {
@@ -15,6 +17,7 @@ class perulangan {
 void perulangan::ulang_for(int n) {
 	for (int i = 1; i <=n; i++)
 	cout << i << " ";
+	getch( );
 }
 
 void perulangan::ulang_rekursif(int n) {
@@ -23,6 +26,7 @@ void perulangan::ulang_rekursif(int n) {
 		cout << i << " ";
 		i--; 
 	}
+	getch( );
 }
 int main() {
 	perulangan X;

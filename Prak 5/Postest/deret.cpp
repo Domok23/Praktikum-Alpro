@@ -1,23 +1,20 @@
 #include <iostream>
 #include <conio.h>
 using namespace std;
-
 class deret{
 	public:
 	int proses();
-	int masukan();
+	int input();
 	private:
 	int n;
 	float hasil;
 };
-
-int deret::masukan(){
+int deret::input(){
 	cout<<"Fungsi rekursif untuk menyelesaikan deret dengan rumus 1-(1/2)+(1/3)-(1/4)+...+(1/n)"<<endl<<endl;
 	cout<<"Tentukan nilai n : ";
 	cin>>n;
 	cout<<endl;
 }
-
 int deret::proses(){
 	hasil=0;
 	for(int i=1; i<=n; i++){
@@ -29,14 +26,12 @@ int deret::proses(){
 			cout<<"+(1/"<<i<<")";
 		}
 	}
-	
 	cout<<endl<<endl<<"Hasil penjumlahan deret = ";
 	cout<<hasil;
 }
-
 int main(){
 	deret a;
-	a.masukan();
+	a.input();
 	a.proses();
 	getch();
 	return 0;
