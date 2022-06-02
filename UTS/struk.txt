@@ -1,0 +1,15 @@
+------------------------------------------------------
+	            Struk Belanja
+------------------------------------------------------
+Pengirim        : SoftCase XR Shop Official
+Nama Penerima   : wahyu
+Alamat Penerima : seturan
+Barang yang Dipesan 
+Soft Case XR (Random)	 Jumlah : 2
+Soft Case XR (Gold)	 Jumlah : 3
+	 Jumlah : -1
+------------------------------------------------------
+Ongkir           : 1000
+Total Pembayaran : 143000
+Keterangan       : Lunas, Pembayaran melalui Shopeepay
+------------------------------------------------------
