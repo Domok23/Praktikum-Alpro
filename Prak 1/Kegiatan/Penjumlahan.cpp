@@ -1,7 +1,7 @@
 #include <iostream>
 #include <conio.h>
 using namespace std;
-
+// hitung
 class Hitung {
 	friend ostream& operator<<(ostream&, const Hitung&);
 	friend istream& operator>>(istream&, Hitung&);

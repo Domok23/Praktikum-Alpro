@@ -7,9 +7,9 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": false,
-      "cwd": "e:/== Document/== Prak Alpro/PRAKTIKUM ALPRO",
-      "program": "e:/== Document/== Prak Alpro/PRAKTIKUM ALPRO/build/Debug/outDebug",
+      "externalConsole": true,
+      "cwd": "e:/== Document/== Prak Alpro/PRAKTIKUM ALPRO/Prak 1/Kegiatan",
+      "program": "e:/== Document/== Prak Alpro/PRAKTIKUM ALPRO/Prak 1/Kegiatan/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
