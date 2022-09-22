@@ -12,7 +12,7 @@ class Hitung {
 		int a,b,c;
 		int jumlah;
 };
-
+// test
 Hitung::Hitung() {
 	cout << "Program menghitung jumlah 3 integer\n";
 	cout << "Selamat berkarya\n";
